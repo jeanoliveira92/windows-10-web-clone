@@ -1,6 +1,6 @@
 # WINDOWS 10 WEB CLONE
 
-Apenas com fins didáticos, goi-se criado uma interface web na versao do desktop do Windows 10.
+Apenas com fins didáticos, foi-se criado uma interface web na versao do desktop do Windows 10.
 
 ## Tecnologias
 * HTML
