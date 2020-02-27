@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+	<meta charset="utf-8">
+	<title>Windows 10 Web Clone</title>
+	<!-- Jquery and Popper -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"></script>
+	<script src="./js/wz_dragdrop/wz_dragdrop.js"></script>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<div class="full">
+</div>
+
+<body class="bg-light">
+	<div class="container-fluid">
+		<img name="computador" src="./img/meupc.png" id="computadoricon" class="desktop-icon">
+		<img name="user" src="./img/user.png" id="usericon" class="desktop-icon">
+		<img name="lixeira" src="./img/lixeira.PNG" id="lixeiraicon" class="desktop-icon">
+
+
+		<div class="row align-items-end black-theme">
+			<div class="col">
+				<button class="btn black-theme" id="fa-windows"><i class="fab fa-windows"></i></button>
+			</div>
+			<div class="col">
+			</div>
+
+			<div class="align-self-end clock" id="taskbarclock" onclick="clockmenu()">
+			</div>
+		</div>
+	</div>
+	<div class="row start-menu black-theme-light">
+	</div>
+
+	<div class="row clock-menu black-theme-light">
+		<div id="fullclock"></div>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

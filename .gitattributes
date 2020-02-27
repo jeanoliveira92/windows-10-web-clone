@@ -1,0 +1,4 @@
+*.html linguist-language=Javascript
+
+# Replace any whitespace in the language name with hyphens:
+*.glyphs linguist-language=OpenStep-Property-List
